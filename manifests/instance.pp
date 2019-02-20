@@ -131,6 +131,7 @@ define redis::instance(
   $appendfilename                = $::redis::appendfilename,
   $appendfsync                   = $::redis::appendfsync,
   $appendonly                    = $::redis::appendonly,
+  $repl_diskless_sync            = $::redis::repl_diskless_sync,
   $auto_aof_rewrite_min_size     = $::redis::auto_aof_rewrite_min_size,
   $auto_aof_rewrite_percentage   = $::redis::auto_aof_rewrite_percentage,
   $bind                          = $::redis::bind,

@@ -140,6 +140,7 @@ class redis (
   $aof_rewrite_incremental_fsync = $::redis::params::aof_rewrite_incremental_fsync,
   $appendfilename                = $::redis::params::appendfilename,
   $appendfsync                   = $::redis::params::appendfsync,
+  $repl_diskless_sync            = $::redis::params::repl_diskless_sync,
   $appendonly                    = $::redis::params::appendonly,
   $auto_aof_rewrite_min_size     = $::redis::params::auto_aof_rewrite_min_size,
   $auto_aof_rewrite_percentage   = $::redis::params::auto_aof_rewrite_percentage,

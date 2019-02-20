@@ -15,6 +15,7 @@ class redis::params {
   $appendfilename                  = 'appendonly.aof'
   $appendfsync                     = 'everysec'
   $appendonly                      = false
+  $repl_diskless_sync              = false
   $auto_aof_rewrite_min_size       = '64mb'
   $auto_aof_rewrite_percentage     = 100
   $bind                            = '127.0.0.1'
